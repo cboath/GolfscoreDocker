@@ -1,7 +1,7 @@
 A prepopulated mysql container ?
 ================================
 
-Yeah why not, i like my test faster :D
+Borrowed code from https://github.com/lindycoder/prepopulated-mysql-container-example
 
 But how ?
 ---------
