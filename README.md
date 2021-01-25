@@ -19,9 +19,12 @@ Try it!
 
 Clone this then:
 
+```
 docker build --tag golfscore-image .
 docker run -d --rm --name golfscore-container golfscore-image 
 docker run -it --rm --link golfscore-container mariadb:latest mysql -hgolfscore-container -uroot -proot golfScore -e "select * from Scores;"
-
+```
 To stop the container run 
+```
 docker stop golfscore-container
+```
